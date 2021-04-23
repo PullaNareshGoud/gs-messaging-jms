@@ -18,10 +18,21 @@
 	</properties>
 	<dependencies>
 		<dependency>
+			<groupId>io.github.qsy7.java.dependencies</groupId>
+			<artifactId>lombok</artifactId>
+			<version>0.1.0</version>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-activemq</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>MsmqJava</groupId>
+			<artifactId>MsmqJava</artifactId>
+			<scope>system</scope>
+			<version>1.0</version>
+			<systemPath>${basedir}\MsmqJava.jar</systemPath>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
